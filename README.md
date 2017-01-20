@@ -1,37 +1,15 @@
-# url_shortener
+# utility tool
  created by Janay Peters in the Web Design and Development program at Full Sail University.
 
 # Purpose
- The purpose of this url shortener is to allow the user to enter a regular url and it return a unique shortend url.
+ The purpose of this utilty tool is to allow debugging on your application.
 
 # Installation Process
- Click the green button that says, "clone or Download" above on the right. </br>
- <img src="views/images/Screen%20Shot%202017-01-04%20at%2010.14.54%20PM.png" alt="greenbutton"> <br/>
- After you have cloned or downloaded the application you will then need to open up your terminal and download a few thing!<br/>
+ First you want to download node by going to www.node.js.org and following the installation process.
+ Second you are able to install my debugging tool by adding it to your computer. npm install UtilityTool and it should appear inside of your node_modules folder. Also here are a few commands that could come in handy:
+ npm init (creates a package.json in root for you)
+ npm list (lists all installed packages)
 
- First: Install npm by typing "npm install"
- Second: Install nodemon by typing "npm install nodemon"
- Third: Start the server by typeing "node src/server.js"
-
- <img src="views/images/Screen%20Shot%202017-01-04%20at%2010.15.40%20PM.png" alt="terminal">
-
-# My Route
-/go/:shorturl
-    Should redirect the user to the actual url based upon the short URL provided
-
-
-# My Endpoints
-
-POST /api/v1/urls
-    Create a shortened URL
-GET /api/v1/urls
-    Display all URLS
-GET /api/v1/urls/:id
-    Display URL based upon id
-POST /api/v1/urls/:id
-    Update URL based upon id
-DELETE  /api/v1/urls/:id
-    Delete url based upon id
 
 # Usage
-..  
+Here are a few steps to get your debugging to work. First you want to call the file by typing const debug = require('UtilityTool'). Afterwards you will have to turn it on by saying DEBUG=true followed by turning on your server for example: DEBUG=true nodemon src/server.js
