@@ -1,5 +1,5 @@
 {
-  "name": "UtilityTool",
+  "name": "utility_tool",
   "version": "1.0.0",
   "description": "Utility Tool",
   "main": "src/util.js",
