@@ -5,11 +5,11 @@ exports.debug = (title, obj, status) => {
   const output = seperator + title + seperator;
 
 var error = chalk.bold.red;
-console.log(error('Error!'));
+console.error ('Error!');
   if (!status){
     status = "";
   }
   if (process.env.DEBUG) {
-    console.log(error(output), obj, status);
+    console.error (output), obj, status);
   }
 };
