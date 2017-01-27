@@ -13,3 +13,6 @@
 
 # Usage
 Here are a few steps to get your debugging to work. First you want to call the file by typing const debug = require('UtilityTool'). Afterwards you will have to turn it on by saying DEBUG=true followed by turning on your server for example: DEBUG=true nodemon src/server.js
+
+# Add and Commit
+This process will be done by using Gulp, you will type "gulp addAll" in order to add the files to the commit line. Last, you will commit the files by using "gulp commit".
